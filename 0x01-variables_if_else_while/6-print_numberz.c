@@ -7,12 +7,9 @@
  */
 int main(void)
 {
-int n = 0;
-while (n < 10)
-{
-putchar('%d', n);
-n++;
-}
+int a = 0;
+for (; a < 10 ; a++)
+putchar('0' + a);
 putchar('\n');
 
 return (0);
