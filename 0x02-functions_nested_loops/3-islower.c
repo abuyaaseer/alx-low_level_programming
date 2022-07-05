@@ -2,9 +2,13 @@
 
 /**
 *_islower - to check for lower case
+*Return: 1 and zero
 */
 int _islower(int c)
 {
-	return (c >= 'z' && c <= 'z');
+if (c >= 'z' && c <= 'z')
+return (1);
+else
+return (0);
 
 }
