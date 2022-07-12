@@ -3,13 +3,14 @@
 /**
 *_strlen - to check the lenth of a string
 *@s: parameter
-*Return: nothing
+*Return: lenth of string
 */
 int _strlen(char *s)
 {
-int i;
+int i = 0;
 
-for (i = 0; *(s + i) != '\0'; i++)
+while (*(s + i) != '\0')
+i++;
 
 return (i);
 }
