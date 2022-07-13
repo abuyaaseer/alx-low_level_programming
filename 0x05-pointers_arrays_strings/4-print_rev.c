@@ -13,6 +13,7 @@ void print_rev(char *s)
 	{
 		if (s[1] == '\0')
 			break;
+		i++;
 	}
 
 	for (i--; i >= 0; i--)
