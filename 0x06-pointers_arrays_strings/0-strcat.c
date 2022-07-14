@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
-*_strcat - it append two strings
-*@dest: parameter 1
-*@src: parametr 2
-*Return: return value to dest
-*/
+ * *_strcat - function commute srtings
+ * @dest: param pointer to a char
+ * @src: param pointer to a char
+ * Return: return value of dest
+ */
+
 char *_strcat(char *dest, char *src)
 {
 	int i;
@@ -25,6 +26,7 @@ char *_strcat(char *dest, char *src)
 		j++;
 		i++;
 	}
-	dest[i] = '\0'
+
+	dest[i] = '\0';
 	return (dest);
 }
