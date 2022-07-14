@@ -4,11 +4,12 @@
 *_strcat - it append two strings
 *@dest: parameter 1
 *@src: parametr 2
-*Return: nothing
+*Return: return value to dest
 */
 char *_strcat(char *dest, char *src)
 {
-	int i, j;
+	int i;
+	int j;
 
 	i = 0;
 	j = 0;
@@ -17,12 +18,13 @@ char *_strcat(char *dest, char *src)
 	{
 		i++;
 	}
+
 	while (src[j] != '\0')
 	{
 		dest[i] = src[j];
 		j++;
 		i++;
 	}
-	dest[i] != '0';
-	return (*dest);
+	dest[i] = '\0'
+	return (dest);
 }
