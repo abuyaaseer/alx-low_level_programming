@@ -3,7 +3,7 @@
 /**
 *_pow_recursion - to calculate raise to power using recursion
 *@x: parameter
-*@y"parameter
+*@y: parameter
 *Return: return -1 or raise to power value
 */
 int _pow_recursion(int x, int y)
@@ -13,6 +13,6 @@ int _pow_recursion(int x, int y)
 	else if (y == 0)
 		return (1);
 	else
-		return (x * _pow_recursion(x, y -1));
+		return (x * _pow_recursion(x, y - 1));
 
 }
