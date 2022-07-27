@@ -6,10 +6,10 @@
 * @argv: array that contain the programs in the command line argument
 * Return: returns
 */
-int main(int argc, char *argv[] __attribute__((unused)))
+int main(int argc, char *argv[])
 {
-
-	printf("%d\n", argc);
+	(void)argv[0];
+	printf("%d\n", argc - 1);
 
 	return (0);
 }
