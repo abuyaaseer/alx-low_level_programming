@@ -6,9 +6,9 @@
 * @argv: array that contain the programs in the command line argument
 * Return: returns
 */
-int main(int argc, char *argv[])
+int main(int argc, char *argv[] __attribute__((unused)))
 {
-	(void)argv[0];
+
 	printf("%d\n", argc);
 
 	return (0);
