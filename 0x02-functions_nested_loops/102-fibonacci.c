@@ -19,5 +19,6 @@ int main(void)
 		n2 = n3;
 		count = count - 1;
 	}
+	printf("\n");
 	return (0);
 }
