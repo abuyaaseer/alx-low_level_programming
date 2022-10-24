@@ -1,10 +1,6 @@
-#ifndef DOG_H
-#define DOG_H
+#ifndef _DOG_H_
+#define _DOG_H_
 
-/**
-* dog_t - typedef for struct dog
-*/
-typedef struct dog dog_t;
 
 /**
  * struct dog - struct that stores some information of a dog
