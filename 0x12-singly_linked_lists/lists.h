@@ -18,4 +18,6 @@ typedef struct list_s
 	struct list_s *link;
 } list_t;
 
+size_t print_list(const list_t *h);
+
 #endif
